@@ -1,0 +1,14 @@
+//ctrl + shift + p 
+//terminal config
+//terminal.integrated.env
+
+{
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.env.windows": {
+
+
+        "PATH":"${env:PATH};C:\\Users\\edevine2025\\dev\\apache-maven-3.9.9\\bin;"
+    }
+}
+
+cmd: mvn clean install
